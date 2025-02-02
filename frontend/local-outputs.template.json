@@ -1,0 +1,26 @@
+{
+  "auth": {
+    "user_pool_id": "YOUR_USER_POOL_ID",
+    "aws_region": "YOUR_REGION",
+    "user_pool_client_id": "YOUR_CLIENT_ID",
+    "identity_pool_id": "YOUR_IDENTITY_POOL_ID",
+    "mfa_configuration": "NONE",
+    "password_policy": {
+      "min_length": 8,
+      "require_lowercase": true,
+      "require_numbers": true,
+      "require_symbols": true,
+      "require_uppercase": true
+    }
+  },
+  "data": {
+    "url": "YOUR_APPSYNC_URL",
+    "aws_region": "YOUR_REGION",
+    "api_key": "YOUR_API_KEY",
+    "default_authorization_type": "AMAZON_COGNITO_USER_POOLS",
+    "authorization_types": [
+      "AMAZON_COGNITO_USER_POOLS",
+      "API_KEY"
+    ]
+  }
+}

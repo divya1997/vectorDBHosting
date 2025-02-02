@@ -1,0 +1,13 @@
+version: 1.0
+backend:
+  phases:
+    build:
+      commands:
+        - cd src
+        - chmod +x build.sh
+        - ./build.sh
+        - cd ..
+  artifacts:
+    baseDirectory: src
+    files:
+      - '**/*'

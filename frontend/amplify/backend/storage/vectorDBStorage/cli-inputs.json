@@ -1,0 +1,16 @@
+{
+  "resourceName": "vectorDBStorage",
+  "policyUUID": "7d7aef69",
+  "bucketName": "vectordbbuildercc816458851c4c0fbd50c4b07585f548",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

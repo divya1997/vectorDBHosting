@@ -1,0 +1,10 @@
+{
+  "resourceName": "vectorDBApiKeys",
+  "tableName": "ApiKeys",
+  "partitionKey": {
+    "fieldName": "api_key",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

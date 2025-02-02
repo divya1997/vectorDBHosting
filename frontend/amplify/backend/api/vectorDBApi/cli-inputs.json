@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "paths": {
+    "/databases": {
+      "name": "/databases",
+      "lambdaFunction": "databasesHandler",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/api-keys": {
+      "name": "/api-keys",
+      "lambdaFunction": "apiKeysHandler",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/usage": {
+      "name": "/usage",
+      "lambdaFunction": "usageHandler",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}

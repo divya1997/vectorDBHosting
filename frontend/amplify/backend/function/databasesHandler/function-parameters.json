@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "storage": {
+      "vectorDBStorage": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ],
+      "vectorDBApiKeys": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ],
+      "vectorDBUsage": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

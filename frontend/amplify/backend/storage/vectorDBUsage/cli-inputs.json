@@ -1,0 +1,14 @@
+{
+  "resourceName": "vectorDBUsage",
+  "tableName": "Usage",
+  "partitionKey": {
+    "fieldName": "db_name",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "timestamp",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

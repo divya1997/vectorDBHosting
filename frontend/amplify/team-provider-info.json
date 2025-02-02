@@ -1,0 +1,49 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vectordbbuilder-dev-69b85-authRole",
+      "UnauthRoleArn": "arn:aws:iam::562967884305:role/amplify-vectordbbuilder-dev-69b85-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::562967884305:role/amplify-vectordbbuilder-dev-69b85-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-vectordbbuilder-dev-69b85-deployment",
+      "UnauthRoleName": "amplify-vectordbbuilder-dev-69b85-unauthRole",
+      "StackName": "amplify-vectordbbuilder-dev-69b85",
+      "StackId": "arn:aws:cloudformation:us-east-1:562967884305:stack/amplify-vectordbbuilder-dev-69b85/ebe4fc50-cdd7-11ef-b1b7-127661890c2b",
+      "AmplifyAppId": "drzwq1r1a5pio",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-vectordbbuilder-dev-69b85-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "drzwq1r1a5pio",
+          "type": "manual"
+        }
+      },
+      "auth": {
+        "vectordbbuildera9a36dfd": {}
+      },
+      "storage": {
+        "vectorDBStorage": {},
+        "vectorDBApiKeys": {},
+        "vectorDBUsage": {}
+      },
+      "function": {
+        "databasesHandler": {
+          "deploymentBucketName": "amplify-vectordbbuilder-dev-69b85-deployment",
+          "s3Key": "amplify-builds/databasesHandler-48654376785a69566731-build.zip"
+        },
+        "apiKeysHandler": {
+          "deploymentBucketName": "amplify-vectordbbuilder-dev-69b85-deployment",
+          "s3Key": "amplify-builds/apiKeysHandler-546e716a7a5356343049-build.zip"
+        },
+        "usageHandler": {
+          "deploymentBucketName": "amplify-vectordbbuilder-dev-69b85-deployment",
+          "s3Key": "amplify-builds/usageHandler-4444536f374877314766-build.zip"
+        }
+      },
+      "api": {
+        "vectorDBApi": {}
+      }
+    }
+  }
+}
