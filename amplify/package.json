@@ -1,0 +1,12 @@
+{
+  "name": "vectordb-builder-backend",
+  "version": "1.0.0",
+  "description": "Backend for VectorDB Builder",
+  "scripts": {
+    "deploy": "amplify push --yes"
+  },
+  "dependencies": {
+    "@aws-amplify/backend": "^0.6.0",
+    "@aws-amplify/backend-cli": "^0.9.2"
+  }
+}
